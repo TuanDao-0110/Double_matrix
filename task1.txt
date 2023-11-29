@@ -1,0 +1,7 @@
+2 # thu # 1950 # tphcm # 13 nguyễn du # 1988 # Xã Hội
+2 # lan # 1947 # thanh hóa # 10 chu du # 1993 # Xã Hội
+2 # hoa # 1946 # gian tay # 3 đường số 1 # 1990 # Xã Hội
+2 # hạ # 1980 # hoa lai # 33 minh châu # 1990 # Tự Nhiên
+2 # my # 1978 # ha xứ # 22 trung trực # 1985 # Xã Hội
+2 # cúc # 1980 # ai lao # 1 lán họ # 2001 # Tự Nhiên
+2 # thanh # 1966 # hà đông # 3 hà lan # 2018 # Tự Nhiên

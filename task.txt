@@ -1,0 +1,10 @@
+1 # long # 1999 # thanh hóa # 120 nguyẽn thựogn # 4 # 5 # 3
+1 # chi # 1998 # tiền giang # 22 nguyẽn thựogn # 6 # 6 # 6
+1 # khoa # 1997 # trung quốc # 1340 nguyẽn thựogn # 4 # 7 # 8
+1 # huy # 1995 # hàn quốc # 120  thựogn # 4 # 7 # 6
+1 # phúc # 1994 # thanh hóa # 1 thựogn # 7 # 5 # 3
+1 # hùng # 1999 # thanh hóa # 120 3thựogn # 4 # 5 # 3
+1 # hảo # 1999 # thanh hóa # 120  thựogn # 4 # 5 # 3
+1 # hòa # 1999 # thanh hóa # 120  thựogn # 10 # 9 # 6
+1 # anh # 1999 # thanh hóa # 120 thựogn # 4 # 5 # 7
+1 # khoa # 1999 # thanh hóa # 120  thựogn # 9 # 7 # 9 
