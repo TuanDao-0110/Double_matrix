@@ -1,9 +1,5 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 import java.util.Scanner;
 
 /*
@@ -80,7 +76,7 @@ public class SchoolMemberList {
                 case 2:
                     student.enter(scan);
                     this.list.add(student);
-                    flag = true;
+                    flag = false;
                     break;
                 default:
                     break;
@@ -124,7 +120,7 @@ public class SchoolMemberList {
     public void findTeacherWithMaxExperience() {
         Teacher teacher = this.teacherList.getList().get(0);
         for (Teacher t : this.teacherList.getList()) {
-            if (teacher.getExperience() < t.getExperience()) {
+            if (teacher.getExperienceYears() < t.getExperienceYears()) {
                 teacher = t;
             }
         }
@@ -136,7 +132,7 @@ public class SchoolMemberList {
     public void findTeachersInNaturalSciences() {
         System.out.println("List of teachers with more than 5 years of experience and in the natural sciences group:");
         for (Teacher t : this.teacherList.getList()) {
-            if (t.getExperience() > 5 && t.getSpecialization().equalsIgnoreCase("Natural Sciences")) {
+            if (t.getExperienceYears() > 5 && t.getExpertise().equalsIgnoreCase("Natural")) {
                 t.display();
             }
         }

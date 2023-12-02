@@ -26,12 +26,11 @@ public class StudentList {
 
     public void createData() {
         try {
-            FileReader reader = new FileReader("src/task.txt");
+            FileReader reader = new FileReader("./task.txt");
             BufferedReader bufferedReader = new BufferedReader(reader);
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 String[] infoList = line.split(" # ");
-
                 // Check if it is a head teacher or regular staff
 
                 Student student = new Student();

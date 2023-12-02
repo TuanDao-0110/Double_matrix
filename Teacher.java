@@ -11,7 +11,7 @@ public class Teacher extends Member {
     public int startTeachingYear;
     public String expertise;
     public int experienceYears;
-    final int CURRENT_YEAR = 2021;
+    final int CURRENT_YEAR = 2023;
 
     // 2. Getters and setters:
     public int getStartTeachingYear() {
@@ -71,10 +71,10 @@ public class Teacher extends Member {
             System.out.println("Enter 1. Natural Sciences or 2. Social Sciences:");
             int n = Integer.parseInt(scan.nextLine());
             if (n == 1) {
-                this.expertise = "Natural Sciences";
+                this.expertise = "Natural";
                 flag = false;
             } else if (n == 2) {
-                this.expertise = "Social Sciences";
+                this.expertise = "Social";
                 flag = false;
             }
         } while (flag);

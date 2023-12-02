@@ -32,15 +32,15 @@ public class TeacherList {
 
     public void createData() {
         try {
-            FileReader reader = new FileReader("src/task1.txt");
+            FileReader reader = new FileReader("./task1.txt");
             BufferedReader bufferedReader = new BufferedReader(reader);
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 String[] infoList = line.split(" # ");
-
                 // Check if it is a head teacher or regular staff
                 Teacher teacher = new Teacher(infoList[1], Integer.parseInt(infoList[2]), infoList[3], infoList[4],
-                        Integer.parseInt(infoList[5]), infoList[6]);
+                        Integer.parseInt(infoList[5]), infoList[6]);                
+
                 this.list.add(teacher);
             }
             // Create data for each personnel

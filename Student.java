@@ -52,7 +52,8 @@ public class Student extends Member {
     }
 
     // 3. Constructors:
-    public Student(String fullName, int birthYear, String birthPlace, String address, float mathScore, float physicsScore,
+    public Student(String fullName, int birthYear, String birthPlace, String address, float mathScore,
+            float physicsScore,
             float chemistryScore) {
         super(fullName, birthYear, birthPlace, address);
         this.mathScore = mathScore;
@@ -71,8 +72,12 @@ public class Student extends Member {
         super.enter(scan);
         System.out.println("Enter Math Score:");
         this.mathScore = Float.parseFloat(scan.nextLine());
+        System.out.println("Enter Chemistry Score:");
         this.chemistryScore = Float.parseFloat(scan.nextLine());
+        System.out.println("Enter Physic Score:");
         this.physicsScore = Float.parseFloat(scan.nextLine());
+        this.calculateAverage();
+        this.classifyStudent();
     }
 
     @Override
@@ -80,7 +85,8 @@ public class Student extends Member {
         // TODO Auto-generated method stub
         super.display();
         System.out.println("\t Math Score: " + this.mathScore + "\t Chemistry Score: " + this.chemistryScore
-                + "\t Physics Score: " + this.physicsScore + "\t Average Score: " + this.averageScore + "\t Classification: "
+                + "\t Physics Score: " + this.physicsScore + "\t Average Score: " + this.averageScore
+                + "\t Classification: "
                 + this.classification);
     }
 
